@@ -4,6 +4,57 @@ A beginner-friendly **E-commerce Web Automation Testing Project** built using **
 
 This project automates key functionalities of the [Cartup](https://cartup.com/) e-commerce website, including product search and product information verification.
 
+
+## 🧪 Testing Approach
+
+The following testing techniques and approaches are used in this project:
+
+### Functional Testing
+Verify that core e-commerce functionalities work according to the expected behavior.
+
+- Product search
+- Product information verification
+- Quantity control
+
+### Positive Testing
+Verify that the application behaves correctly with valid inputs.
+
+- Search for an existing product
+- Verify valid product information
+
+### Negative Testing
+Verify that the application handles invalid inputs appropriately.
+
+- Search for a non-existing product
+- Verify that no relevant product is returned
+
+### Boundary Value Testing
+Verify the minimum and maximum allowed quantity values.
+
+- Minimum quantity: 1
+- Maximum quantity: 3
+- Verify quantity cannot be reduced below 1
+- Verify quantity cannot be increased above 3
+
+### UI Testing
+Verify that important user interface elements are displayed and functional.
+
+- Search box
+- Product information
+- Quantity controls
+- Product Details section
+
+### Automation Testing
+Automated using Playwright with JavaScript.
+
+- Page Object Model (POM)
+- Reusable locators
+- Playwright assertions
+- Automated test execution
+- Screenshots and video recording
+- HTML test reporting
+
+  
 ## 🚀 Technologies Used
 
 * **Playwright**
