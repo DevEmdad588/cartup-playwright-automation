@@ -1,6 +1,6 @@
 # cartup-playwright-automation
 
-A beginner-friendly **E-commerce Web Automation Testing Project** built using **Playwright with JavaScript**.
+An **E-commerce Web Automation Testing Project** built using **Playwright with JavaScript**.
 
 This project automates key functionalities of the [Cartup](https://cartup.com/) e-commerce website, including product search and product information verification.
 
